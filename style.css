@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+
+   background:
+linear-gradient(rgba(0, 0, 0, 0.65),rgba(0,0,0,.65)),
+url("../images/hero.jpeg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+}
+header{
+    background:#00ffd5;
+    text-align:center;
+    padding:50px;
+}
+
+h1{
+    color:#FFD700;
+    font-size:40px;
+}
+
+p{
+    font-size:15px;
+}
+
+section{
+    text-align:center;
+    padding:60px 20px;
+    
+}
+
+a{
+    display:inline-block;
+    margin-top:20px;
+    background:#25D366;
+    color:rgb(255, 0, 0);
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+.categories{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.card{
+    background:#462424;
+    width:250px;
+    border-radius:12px;
+    overflow:hidden;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgb(5, 5, 5);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h3{
+    color:#FFD700;
+    margin:25px 0 10px;
+}
+
+.card p{
+    padding:0 15px 20px;
+    color:#ddd;
+}
+.category-title{
+    display:inline-block;
+    background:#FFD700;
+    color:#111827;
+    padding:12px 30px;
+    border-radius:8px;
+    font-size:32px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+header h2{
+    font-size:80px;
+    color:#FFD700;
+    font-weight:bold;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img{
+    width: 200px;   /* Logo ka size */
+    height: auto;
+}
+
+
+.logo2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.logo2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.logo2 img{
+    width: 200px;   /* Logo ka size */
+    height: auto;
+}
+.search-box{
+    text-align:center;
+    margin:20px 0;
+}
+
+.search-box input{
+    width:350px;
+    max-width:90%;
+    padding:12px 18px;
+    border:2px solid #007bff;
+    border-radius:30px;
+    font-size:16px;
+    outline:none;
+}
