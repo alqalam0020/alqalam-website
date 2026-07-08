@@ -70,7 +70,7 @@ a{
 }
 
 .card h3{
-    color:#FFD700;
+    color:#0D47A1;
     margin:25px 0 10px;
 }
 
@@ -80,7 +80,7 @@ a{
 }
 .category-title{
     display:inline-block;
-    background:#FFD700;
+    background:#0D47A1;
     color:#111827;
     padding:12px 30px;
     border-radius:8px;
@@ -90,7 +90,7 @@ a{
 }
 header h2{
     font-size:80px;
-    color:#FFD700;
+    color:#0D47A1;
     font-weight:bold;
 }
 .logo{
