@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Note Books</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h2>STATIONERY ITEMS</h2>
+</header>
+
+<div class="search-box">
+    <input type="text"
+           id="searchInput"
+           placeholder="🔍 Search Product..."
+           onkeyup="searchProducts()">
+</div>
+
+<section class="categories">
+
+<section class="categories">
+
+<div class="card">
+    <img src="images/Natraj Pencils 1 Pocket.jpg" alt="Study Tables">
+
+   <h4 style="color: rgb(255, 255, 255);">Nataraj Pencils Box</h4>
+
+    <p class="mrp">MRP: <del>60</del></p>
+    
+
+    <p class="offer"><B>Offer Price: 45</b></p>
+
+    <p class="save">🎉 You Save ₹15</p>
+
+    <a href="https://wa.me/919103551375?text=Hello, I want to order Nataraj Pencils 1 Pocket "
+       class="order-btn"
+       target="_blank">
+       🛒 Order on WhatsApp
+    </a>
+</div>
+
+<div class="card">
+    <img src="images/Doms Pencil Pocklet.jpg" alt="Stationery Items">
+
+   <h4 style="color: rgb(255, 255, 255);">Doms Pencil Box</h4>
+
+    <p class="mrp">MRP: <del>60
+    </del></p>
+
+
+    <p class="offer"><B>Offer Price: 45</b></p>
+
+    <p class="save">🎉 You Save 15</p>
+
+    <a href="https://wa.me/919103551375?text=Hello, I want to order  Doms Pencil Box "
+       class="order-btn"
+       target="_blank">
+       🛒 Order on WhatsApp
+    </a>
+</div>
+
+<div class="card">
+    <img src="images/Doms Superio Pencil Box With Geometry Box.jpg" alt="Stationery Items">
+
+   <h4 style="color: rgb(255, 255, 255);">Premium Doms Superio Pencil Box With Geometry Box</h4>
+
+    <p class="mrp">MRP: <del>150
+    </del></p>
+
+
+    <p class="offer"><B>Offer Price: 130</b></p>
+
+    <p class="save">🎉 You Save 20</p>
+
+    <a href="https://wa.me/919103551375?text=Hello, I want to order  Premium Doms Superio Pencil Box With Geometry Box "
+       class="order-btn"
+       target="_blank">
+       🛒 Order on WhatsApp
+    </a>
+</div>
+<div class="card">
+    <img src="images/Black Beauty Ultra Dark Pencil Box.jpg" alt="Stationery Items">
+
+   <h4 style="color: rgb(255, 255, 255);">Black Beauty Ultra Dark Pencil Box</h4>
+
+    <p class="mrp">MRP: <del>100
+    </del></p>
+
+
+    <p class="offer"><B>Offer Price: 90</b></p>
+
+    <p class="save">🎉 You Save 10</p>
+
+    <a href="https://wa.me/919103551375?text=Hello, I want to order  Black Beauty Ultra Dark Pencil Box "
+       class="order-btn"
+       target="_blank">
+       🛒 Order on WhatsApp
+    </a>
+</div>
+
+</section>
+<script>
+function searchProducts() {
+    let input = document.getElementById("searchInput").value.toLowerCase();
+    let cards = document.querySelectorAll(".card");
+
+    cards.forEach(function(card){
+        let title = card.querySelector("h4").innerText.toLowerCase();
+
+        if(title.includes(input)){
+            card.style.display = "";
+        } else {
+            card.style.display = "none";
+        }
+    });
+}
+</script>
+
+
+</body>
+</html>
