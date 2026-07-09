@@ -80,7 +80,7 @@ a{
 }
 .category-title{
     display:inline-block;
-    background:#0D47A1;
+    background:#FFD700;
     color:#111827;
     padding:12px 30px;
     border-radius:8px;
@@ -106,7 +106,7 @@ header h2{
 }
 
 .logo img{
-    width: 70px;   /* Logo ka size */
+    width: 200px;   /* Logo ka size */
     height: auto;
 }
 
@@ -124,7 +124,7 @@ header h2{
 }
 
 .logo2 img{
-    width: 70px;   /* Logo ka size */
+    width: 200px;   /* Logo ka size */
     height: auto;
 }
 .search-box{
