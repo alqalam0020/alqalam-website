@@ -89,7 +89,7 @@ a{
     margin-bottom:30px;
 }
 header h2{
-    font-size:80px;
+    font-size:70px;
     color:#0D47A1;
     font-weight:bold;
 }
@@ -106,7 +106,7 @@ header h2{
 }
 
 .logo img{
-    width: 80px;   /* Logo ka size */
+    width: 70px;   /* Logo ka size */
     height: auto;
 }
 
