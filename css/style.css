@@ -290,11 +290,11 @@ header .page-title{
 }
     @media(max-width:768px){
         .logo h2{
-font-size:56px;
+font-size:46px;
 }
 
 .logo p{
-font-size:26px;
+font-size:15px;
 }
 
 .header{
