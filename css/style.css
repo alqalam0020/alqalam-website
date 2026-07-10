@@ -18,29 +18,18 @@ header{
     text-align: center;
     padding: 20px 0;
 }
-@media(max-width:768px){
 
 .header{
-flex-direction:column;
-}
-
-nav{
-margin-top:15px;
-}
-
-.hero{
-text-align:center;
-}
-
-.hero-text h1{
-font-size:36px;
-}
-
-.hero-image img{
-margin-top:40px;
-width:240px;
-}
-
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:linear-gradient(135deg,#0b6b3a,#128c52);
+color:white;
+position:sticky;
+top:0;
+z-index:999;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
 }
 
 .logo h2{
