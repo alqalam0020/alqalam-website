@@ -293,10 +293,52 @@ header .page-title{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-    .order-btn::before{
-content:"💬 ";
-    }
-    /* ===== Premium WhatsApp Button ===== */
+    @media(max-width:768px){
+
+.header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+.hero{
+text-align:center;
+}
+
+.hero-text h1{
+font-size:36px;
+}
+
+.hero-image img{
+margin-top:40px;
+width:240px;
+}
+
+.page-title{
+text-align:center;
+font-size:48px;
+font-weight:bold;
+color:#0b6b3a;
+margin:30px 0;
+text-transform:uppercase;
+}
+
+header .page-title{
+text-align:center !important;
+font-size:48px !important;
+color:#0b6b3a !important;
+font-weight:700 !important;
+margin:20px 0 !important;
+text-transform:uppercase;
+letter-spacing:2px;
+}
+
+}   /* ← @media yahan khatam ho gaya */
+
+
+/* ===== Premium WhatsApp Button ===== */
 
 .order-btn{
 display:flex;
@@ -320,4 +362,7 @@ background:#1EBE5D;
 transform:translateY(-3px);
 box-shadow:0 10px 20px rgba(37,211,102,.45);
 }
+
+.order-btn::before{
+content:"💬 ";
 }
