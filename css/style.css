@@ -211,18 +211,19 @@ font-weight:bold;
 /* ===== WHATSAPP ===== */
 
 .whatsapp{
-padding:50px;
+padding:25px;
 text-align:center;
 }
 
 .whatsapp a{
+display:inline-block;
 background:#25D366;
 color:white;
-padding:16px 40px;
+padding:10px 22px;
 text-decoration:none;
-border-radius:50px;
-font-size:20px;
-font-weight:bold;
+border-radius:30px;
+font-size:16px;
+font-weight:600;
 }
 
 /* ===== FOOTER ===== */
