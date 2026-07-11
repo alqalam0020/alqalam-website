@@ -362,7 +362,7 @@ box-shadow:0 6px 15px rgba(37,211,102,.35);
 transition:all .3s ease;
 }
 
-.order-btn:hover{
+
 background:#1EBE5D;
 transform:translateY(-3px);
 box-shadow:0 10px 20px rgba(37,211,102,.45);
