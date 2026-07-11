@@ -513,13 +513,17 @@ margin-bottom:18px;
 .vision strong{
 color:#0b6b3a;
 }
-.founder{
-margin-top:20px;
-font-size:16px;
-color:#ffffff;
-opacity:0.9;
+.logo .founder-tag{
+display:block;
+margin-top:5px;
+font-size:15px !important;
+font-weight:500;
+color:#ffffff !important;
+opacity:1 !important;
+line-height:1.4;
 }
 
-.founder strong{
-color:#ffd54f;
+.logo .founder-tag strong{
+color:#ffd54f !important;
+font-weight:700;
 }
