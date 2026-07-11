@@ -293,6 +293,10 @@ header .page-title{
     font-size:42px;
     margin-bottom:2px;
 }
+        .hero-image{
+display:flex;
+justify-content:center;
+        }
 
 .logo p{
     font-size:18px;
