@@ -407,3 +407,55 @@ transform:translateY(-2px);
 .order-btn::before{
 content:"💬 ";
 }
+/* ===== ABOUT PAGE ===== */
+
+.about{
+max-width:1200px;
+margin:70px auto;
+padding:0 20px;
+text-align:center;
+}
+
+.about h1{
+font-size:48px;
+color:#0b6b3a;
+margin-bottom:20px;
+}
+
+.about-text{
+max-width:800px;
+margin:auto;
+font-size:18px;
+line-height:1.8;
+color:#555;
+margin-bottom:50px;
+}
+
+.about-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.about-card{
+background:#fff;
+padding:30px;
+border-radius:18px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.about-card:hover{
+transform:translateY(-8px);
+}
+
+.about-card h3{
+color:#0b6b3a;
+font-size:24px;
+margin-bottom:15px;
+}
+
+.about-card p{
+color:#666;
+line-height:1.7;
+}
