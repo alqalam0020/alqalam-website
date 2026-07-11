@@ -290,13 +290,16 @@ header .page-title{
 }
     @media(max-width:768px){
         .logo h2{
-font-size:46px;
+    font-size:42px;
+    margin-bottom:2px;
 }
 
 .logo p{
-font-size:15px;
+    font-size:18px;
+    margin-top:2px;
+    margin-bottom:0;
+    line-height:1.2;
 }
-
 .header{
 flex-direction:column;
 }
