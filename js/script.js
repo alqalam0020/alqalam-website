@@ -1,20 +1,58 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
+
     const searchInput = document.querySelector(".search-box input");
     const cards = document.querySelectorAll(".card");
+    const container = document.querySelector(".search-box");
 
     if (!searchInput) return;
 
-    searchInput.addEventListener("keyup", function () {
-        const value = this.value.toLowerCase();
+    // Search Result Message
+    const result = document.createElement("p");
+    result.style.marginTop = "15px";
+    result.style.fontSize = "16px";
+    result.style.fontWeight = "600";
+    result.style.color = "#0b6b3a";
+    container.appendChild(result);
+
+    function filterProducts() {
+
+        const keyword = searchInput.value.trim().toLowerCase();
+        let visible = 0;
 
         cards.forEach(card => {
-            const text = card.innerText.toLowerCase();
 
-            if (text.includes(value)) {
+            const title =
+                (card.querySelector("h3")?.textContent || "") +
+                " " +
+                (card.querySelector("h4")?.textContent || "");
+
+            const text = (title + " " + card.textContent).toLowerCase();
+
+            if (text.includes(keyword)) {
+
                 card.style.display = "block";
+                card.style.opacity = "1";
+                card.style.transform = "scale(1)";
+                visible++;
+
             } else {
+
                 card.style.display = "none";
+
             }
+
         });
-    });
+
+        if (keyword === "") {
+            result.textContent = "";
+        } else if (visible === 0) {
+            result.textContent = "❌ No Products Found";
+        } else {
+            result.textContent = `✅ ${visible} Product${visible > 1 ? "s" : ""} Found`;
+        }
+
+    }
+
+    searchInput.addEventListener("input", filterProducts);
+
 });
