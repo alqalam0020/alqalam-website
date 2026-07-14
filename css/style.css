@@ -717,3 +717,15 @@ font-weight:700;
 }
 
 }
+/* Mobile par image zoom off */
+@media (max-width:768px){
+
+.card:hover img{
+    transform:scale(1);
+}
+
+.card img:hover{
+    transform:scale(1);
+}
+
+}
