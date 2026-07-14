@@ -160,13 +160,13 @@ transform:translateY(-10px);
 }
 
 .card img{
-width:100%;
-height:180px;
-object-fit:contain;
-background:#fff;
-padding:15px;
+    width:100%;
+    height:180px;
+    object-fit:contain;
+    background:#fff;
+    padding:5px;
+    transition:transform .3s ease;
 }
-
 .card a{
 display:block;
 text-decoration:none;
@@ -646,8 +646,9 @@ font-weight:700;
 }
 
 .card:hover img{
-    transform:scale(1.03);
+    transform:scale(1.04);
 }
+
 .card{
     overflow:hidden;
 }
