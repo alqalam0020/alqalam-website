@@ -645,10 +645,9 @@ font-weight:700;
     transition:transform .3s ease;
 }
 
-.card img:hover{
-    transform:scale(1.08);
+.card:hover img{
+    transform:scale(1.03);
 }
-
 .card{
     overflow:hidden;
 }
